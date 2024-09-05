@@ -1,0 +1,40 @@
+
+bool boolTemp; // defines boolean for logic gate
+bool gateTempBool; // defines the final status of each gates -> true || false
+
+/*
+		[GATES]
+
+		AND Gate: Outputs true (1) only if all inputs are true.
+		OR Gate: Outputs true if at least one input is true.
+		NOT Gate: Inverts the input, outputting the opposite value (true becomes false, and vice versa).
+		NAND Gate: Outputs false only if all inputs are true; otherwise, it outputs true (NOT AND).
+		NOR Gate: Outputs true only if all inputs are false; otherwise, it outputs false (NOT OR).
+		XOR Gate (Exclusive OR): Outputs true if exactly one of the inputs is true; otherwise, it outputs false.
+		XNOR Gate (Exclusive NOR): Outputs true if the inputs are the same (both true or both false); otherwise, it outputs false (NOT XOR).
+
+
+		[TODO]
+
+			- Tokenizer
+				- Split string, look for key logic gate
+				- calculates correct response
+			
+			- func_switch
+				- takes in key word, directs question to correct solution
+			
+			- compare
+				- compares final result to user input, will notify user if wrong or right
+
+*/
+
+void funcReader () {} // breaks input from question sequence then determines which func to be executed (or, and, not)
+void AND () {} // for AND logic gates
+void OR () {} // for OR logic gates
+void NOT () {} // for NOT logic gates
+void NAND () {} // for NAND logic gates
+void NOR () {} // for NOR logic gates
+void XOR () {} // for XOR logic gates
+void XNOR () {} // for XNOR logic gates
+
+
