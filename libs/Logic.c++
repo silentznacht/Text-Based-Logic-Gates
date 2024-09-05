@@ -7,7 +7,7 @@
 Logic::Logic() {}
 
 void Logic::token_parser() {
-    
+    // inserts
 }
 
 void Logic::func_switch(logic_words words) {
