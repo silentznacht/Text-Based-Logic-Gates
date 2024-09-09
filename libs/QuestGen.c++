@@ -6,9 +6,9 @@
 #include <cstdlib> 
 #include <ctime>    
 
+using namespace std;
 
-std::string return_rand() { // outputs a random logic gate from the enum class
-    std::vector<std::string> gate_words = {
+std::vector<std::string> gate_words = {
         "AND", 
         "OR",
         "NOT", 
@@ -16,8 +16,9 @@ std::string return_rand() { // outputs a random logic gate from the enum class
         "NOR", 
         "XOR", 
         "XNOR"
-    };
+};
     
+std::string return_rand() { // outputs a random logic gate from the enum class
     std::srand(std::time(0)); // Seed with current time
     int randomIndex = std::rand() % gate_words.size(); // Random index between 0 and vec.size()-1
     std::string rand_logic_chosen = gate_words[randomIndex];
@@ -25,7 +26,7 @@ std::string return_rand() { // outputs a random logic gate from the enum class
     return rand_logic_chosen;
 }
 
-std::string question_gen_side_a(std::string& rand_question) { // generators right side of question (c, d)
+std::string question_gen_side_a(std::string& rand_question) { // generators left side of question (c, d)
 
     // Distribution for random boolean values
     std::random_device rd;                // Obtain a random number from hardware
@@ -41,7 +42,7 @@ std::string question_gen_side_a(std::string& rand_question) { // generators righ
     std::string bStr = (b) ? "True" : "False";
 
     // Create the question string
-    std::string rand_question_1 = "[" + aStr + "] " + return_rand() + " [" + bStr + "] => E (Result) = ?(Enter Here): ";
+    std::string rand_question_1 = "[" + aStr + "] " + return_rand() + " [" + bStr + "] => (Result) = ?(Enter Here): ";
 
     // Output the generated question
     std::cout << rand_question_1 << std::endl; // test
@@ -66,7 +67,7 @@ std::string question_gen_side_b(std::string& rand_question2) { // generators rig
     std::string bStr = (d) ? "True" : "False";
 
     // Create the question string
-    std::string rand_question_2 = "[" + aStr + "] " + return_rand() + " [" + bStr + "] => F (Result) = ?(Enter Here): ";
+    std::string rand_question_2 = "[" + aStr + "] " + return_rand() + " [" + bStr + "] => (Result) = ?(Enter Here): ";
 
     // Output the generated question
     std::cout << rand_question_2 << std::endl; // test
@@ -81,5 +82,5 @@ void mesh (std::string &full_question) { // combines, both generated questions t
     std::string rand_question_1, rand_question_2;
     question_gen_side_a(rand_question_1);
     question_gen_side_b(rand_question_2);
-    std::string full_question = rand_question_1 + "|" + rand_question_2 + "RESULT: C " + return_rand() + "F = ?: ";
+    full_question = rand_question_1 + " | " + rand_question_2 + " RESULT1: " + return_rand() + " RESULT2 = ?: ";
 }

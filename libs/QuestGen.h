@@ -2,15 +2,14 @@
 #define QUESTGEN_H
 
 #include <iostream>
-#include "Logic.h"
+#include <string>
 
-class QUESTGEN {
-
+class QuestGen {
     public:
-        void mesh (std::string &full_question);
-        std::string question_gen_side_a(std::string& rand_question1);
-        std::string question_gen_side_b(std::string& rand_question2);
-        std::string return_rand();
+        void mesh(std::string& full_question); // Combines two sides of the question
+        std::string question_gen_side_a(std::string& rand_question1); // Generates the left side of the question
+        std::string question_gen_side_b(std::string& rand_question2); // Generates the right side of the question
+        std::string return_rand();  // Returns a random logic gate word
 };
 
 #endif
