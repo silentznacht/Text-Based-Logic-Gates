@@ -25,11 +25,19 @@ std::vector<std::string> imp_gw = gate_words;
 void Logic::process_question(const std::string& question) {
     std::cout << "Processing Question: " << question << std::endl;
 
-        for (std::string word_found : gate_words) {
-            if (word_found != "") {
-                std::cout << "Word_Found: " + word_found;
-            }
-        }
+        // for (std::string word_found : gate_words) {
+        //     if (word_found != "") {
+        //         std::cout << "Word_Found: " + word_found;
+        //     }
+        // }
+
+            
+    //                      [NOTE TO SELF: REFACTOR HERE]
+    if (question.find("AND") != std::string::npos) {
+        func_switch(logic_words::AND);
+    } else if (question.find("OR") != std::string::npos) {
+        func_switch(logic_words::OR);
+    }
 }
 void Logic::func_switch(logic_words words) {
     switch (words) {
@@ -39,7 +47,7 @@ void Logic::func_switch(logic_words words) {
         case logic_words::OR:
             std::cout << "Processing OR gate logic..." << std::endl;
             break;
-        // Other cases..
+        // Other cases.. More cases soon...
         default:
             std::cout << "Unknown logic gate." << std::endl;
             break;
