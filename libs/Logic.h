@@ -34,4 +34,5 @@ class Logic {
         bool gate_temp_bool; // Stores the final status of each gate
 };
 
-#endif
+
+#endif // LOGIC_H

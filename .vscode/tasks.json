@@ -1,0 +1,37 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-std=c++23",
+          "-Ilibs",
+          "main.c++",
+          "libs/QuestGen.c++",
+          "libs/Logic.c++",
+          "-o",
+          "./build/Debug/outDebug"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"],
+        "detail": "Build C++ project"
+      },
+      {
+        "label": "run",
+        "type": "shell",
+        "command": "./build/Debug/outDebug",
+        "dependsOn": "build",
+        "group": {
+          "kind": "test",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+  

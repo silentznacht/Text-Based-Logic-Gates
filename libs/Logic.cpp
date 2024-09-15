@@ -3,8 +3,7 @@
 #include <string>
 #include "libs/Logic.h"
 #include "libs/QuestGen.h"
-#include "libs/QuestGen.c++"
-#include "Logic.h"
+#include "libs/QuestGen.cpp"
 
 using namespace std;
 

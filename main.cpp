@@ -3,7 +3,7 @@
 #include <vector>
 #include <random>
 #include "libs/Logic.h"
-#include "QuestGen.h"
+#include "libs/QuestGen.h"
 
 
 int main() {

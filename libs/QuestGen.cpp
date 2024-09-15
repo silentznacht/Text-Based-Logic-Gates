@@ -1,12 +1,17 @@
-#include "libs/QuestGen.h"
 #include <iostream>
 #include <vector>
 #include <string>
 #include <random>
 #include <cstdlib> 
 #include <ctime>    
+#include "libs/QuestGen.h"
+#include "libs/Logic.h"
+
 
 using namespace std;
+
+Logic::Logic() {}
+QuestGen::QuestGen() {}
 
 std::vector<std::string> gate_words = {
         "AND", 

@@ -12,4 +12,4 @@ class QuestGen {
         std::string return_rand();  // Returns a random logic gate word
 };
 
-#endif
+#endif // QUESTGEN_H
