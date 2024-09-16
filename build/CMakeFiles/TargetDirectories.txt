@@ -1,0 +1,3 @@
+/home/silentz_nacht/Desktop/ProgrammingProjects/Text-Based-Logic-Gates/build/CMakeFiles/TextBasedLogicGates.dir
+/home/silentz_nacht/Desktop/ProgrammingProjects/Text-Based-Logic-Gates/build/CMakeFiles/edit_cache.dir
+/home/silentz_nacht/Desktop/ProgrammingProjects/Text-Based-Logic-Gates/build/CMakeFiles/rebuild_cache.dir

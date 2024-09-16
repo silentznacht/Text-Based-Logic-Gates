@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/TextBasedLogicGates.dir/src/main.cpp.o CMakeFiles/TextBasedLogicGates.dir/libs/Logic.cpp.o CMakeFiles/TextBasedLogicGates.dir/libs/QuestGen.cpp.o -o TextBasedLogicGates 
