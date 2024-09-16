@@ -17,16 +17,68 @@ The Text-Based Logic Gates Program is a command-line tool designed to generate, 
 ## Project Structure
 
 ```
+
 .
 ├── build
-│   └── Debug
-│       └── outDebug
+│   ├── CMakeCache.txt
+│   ├── CMakeFiles
+│   │   ├── 3.25.1
+│   │   │   ├── CMakeCCompiler.cmake
+│   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   ├── CMakeSystem.cmake
+│   │   │   ├── CompilerIdC
+│   │   │   │   ├── a.out
+│   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   └── tmp
+│   │   │   └── CompilerIdCXX
+│   │   │       ├── a.out
+│   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │       └── tmp
+│   │   ├── cmake.check_cache
+│   │   ├── CMakeDirectoryInformation.cmake
+│   │   ├── CMakeOutput.log
+│   │   ├── CMakeScratch
+│   │   ├── Makefile2
+│   │   ├── Makefile.cmake
+│   │   ├── pkgRedirects
+│   │   ├── Progress
+│   │   │   ├── 2
+│   │   │   └── count.txt
+│   │   ├── progress.marks
+│   │   ├── TargetDirectories.txt
+│   │   └── TextBasedLogicGates.dir
+│   │       ├── build.make
+│   │       ├── cmake_clean.cmake
+│   │       ├── compiler_depend.internal
+│   │       ├── compiler_depend.make
+│   │       ├── compiler_depend.ts
+│   │       ├── DependInfo.cmake
+│   │       ├── depend.make
+│   │       ├── flags.make
+│   │       ├── libs
+│   │       ├── link.txt
+│   │       ├── progress.make
+│   │       └── src
+│   │           ├── main.cpp.o
+│   │           └── main.cpp.o.d
+│   ├── cmake_install.cmake
+│   └── Makefile
+├── CMakeLists.txt
+├── docs
+│   ├── Debug.txt
+│   └── logicgateidea.txt
+├── include
+│   ├── Logic.h
+│   └── QuestGen.h
 ├── libs
-│   ├── logicgateidea.txt
-│   ├── Logic.h
-│   ├── QuestGen.c++
-│   └── QuestGen.h
-└── main.c++
+│   ├── Logic.cpp
+│   └── QuestGen.cpp
+├── README.md
+└── src
+    └── main.cpp
+
 ```
 
 - **`build/Debug/outDebug`**: Contains the compiled binaries.
