@@ -2,8 +2,8 @@
 #include <string>
 #include <vector>
 #include <random>
-#include "libs/Logic.h"
-#include "libs/QuestGen.h"
+#include "Logic.h"
+#include "QuestGen.h"
 
 
 int main() {

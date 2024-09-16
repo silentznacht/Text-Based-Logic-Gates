@@ -4,8 +4,8 @@
 #include <random>
 #include <cstdlib> 
 #include <ctime>    
-#include "libs/QuestGen.h"
-#include "libs/Logic.h"
+#include "QuestGen.h"
+#include "Logic.h"
 
 
 using namespace std;
