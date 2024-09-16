@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <string>
 #include "Logic.h"
-#include "QuestGen.h"
+#include "include/QuestGen.h"
 #include "libs/QuestGen.cpp"
 
 using namespace std;
