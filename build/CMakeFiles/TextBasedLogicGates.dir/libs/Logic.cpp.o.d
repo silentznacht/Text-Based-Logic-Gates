@@ -1,5 +1,5 @@
-CMakeFiles/TextBasedLogicGates.dir/src/main.cpp.o: \
- /home/silentz_nacht/Desktop/ProgrammingProjects/Text-Based-Logic-Gates/src/main.cpp \
+CMakeFiles/TextBasedLogicGates.dir/libs/Logic.cpp.o: \
+ /home/silentz_nacht/Desktop/ProgrammingProjects/Text-Based-Logic-Gates/libs/Logic.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -147,10 +147,17 @@ CMakeFiles/TextBasedLogicGates.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/locale_facets.tcc \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc \
- /home/silentz_nacht/Desktop/ProgrammingProjects/Text-Based-Logic-Gates/include/Logic.h \
- /home/silentz_nacht/Desktop/ProgrammingProjects/Text-Based-Logic-Gates/include/QuestGen.h \
- /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/algorithm \
+ /usr/include/c++/12/bits/stl_algo.h \
+ /usr/include/c++/12/bits/algorithmfwd.h \
+ /usr/include/c++/12/bits/stl_heap.h \
+ /usr/include/c++/12/bits/stl_tempbuf.h \
+ /usr/include/c++/12/bits/uniform_int_dist.h \
+ /usr/include/c++/12/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/12/pstl/execution_defs.h /usr/include/c++/12/vector \
+ /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
- /usr/include/c++/12/bits/vector.tcc
+ /usr/include/c++/12/bits/vector.tcc \
+ /home/silentz_nacht/Desktop/ProgrammingProjects/Text-Based-Logic-Gates/include/Logic.h \
+ /home/silentz_nacht/Desktop/ProgrammingProjects/Text-Based-Logic-Gates/include/QuestGen.h
